@@ -1,7 +1,7 @@
 from base_regularizer import BaseRegularizer
 import numpy as np
 
-class SparsingRegularizationTopicProbabilities(BaseRegularizer):
+class SparsingRegularizationTopicsWords(BaseRegularizer):
     """Sparsing regularization of topic probabilities for the words."""
     
     def __init__(self, tau, num_topics, num_words, num_docs, word_in_doc_freq, word_in_topic_freq, topic_in_doc_freq):
